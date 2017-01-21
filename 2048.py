@@ -8,9 +8,7 @@ def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
     ints=[]
     for y in r:
         for x in c:ints.append(f[y][x])
-    return ints
-
-def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
+:wqert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
     if reverse==True:pop_from=-1
     for y in range(4):
